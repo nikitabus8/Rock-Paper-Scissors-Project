@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="all">
+    <p>Rock, Paper, Scissors!</p>
+    <div class="score">
+      <h>Wins:<span id="WinsHTML">0</span></h>
+      <p1>Losess:<span id="LosessHTML">0</span></p1>
+      <p2>Draws:<span id="DrawsHTML">0</span></p2>
+    </div>
+    <div class="options">
+      <button onclick="Rock()" class="rock">👊</button>
+      <button onclick="Paper()" class="paper">✋</button>
+      <button onclick="Scissors()" class="scissors">✌️</button>
+    </div>
+    <div class="JustText">
+      <p6><span id="LabelComp"></span></p6> 
+      <p7><span id="LabelYou"></span></p7>
+    </div>
+    <div class="Results">
+      <p3><span id="ResultComp"></span></p3>
+      <p4><span id="ResultGame">Lets Play!</span></p4>
+      <p5><span id="ResultPlayer"></span></p5>
+    </div>
+    <div class="ResetDiv">
+      <button onclick="Reset()" class="ResetButton">Reset score</button>
+    </div>
+  </div>
+  <script src="inspect.js"></script>
+</body>
+</html>
