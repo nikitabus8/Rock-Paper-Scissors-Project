@@ -1,5 +1,6 @@
 Link: https://nikitabus8.github.io/Rock-Paper-Scissors-Project/website.html. 
-To open it on your computer: download the files, right-click on the HTML file, and click "Show Preview".
+
+If you want to open it on your computer, download the files, right-click on the HTML file, and click "Show Preview".
 
 This project includes:
 - <ins>inspect.js:</ins> logic of the website.
